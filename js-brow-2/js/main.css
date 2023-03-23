@@ -1,0 +1,68 @@
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+    font-family: Verdana;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+input[type="text"] {
+	padding: 10px;
+	font-size: 18px;
+	width: 70%;
+	border: none;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;
+}
+
+button {
+    font-family: Verdana;
+	padding: 10px 20px;
+	font-size: 18px;
+	background-color: #a51594;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #721067;
+}
+
+ul {
+	text-align: left;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	padding: 10px;
+	font-size: 18px;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+}
+
+li span {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 10px;
+	cursor: pointer;
+}
+
+li.completed {
+	background-color: #ddd;
+	text-decoration: line-through;
+}
+
+li.completed span:before {
+	content: "\2714";
+	color: green;
+	margin-right: 10px;
+}
